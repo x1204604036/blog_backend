@@ -14,9 +14,10 @@ Django 版本是 3.2
 
 1. git clone 下对应的代码
 2. 修改 blog_backend/envs/ 文件夹下对应的环境变量
-3. cd blog_backend 到系统的根目录下
-4. 执行 python3 manage.py migrate 执行数据库迁移操作
-5. 执行 python3 manage.py runserver 0.0.0.0:9898 启动系统
+3. 安装依赖 pip3 install -r requirements.txt，如果安装太慢，可以换源安装
+4. cd blog_backend 到系统的根目录下
+5. 执行 python3 manage.py migrate 执行数据库迁移操作
+6. 执行 python3 manage.py runserver 0.0.0.0:9898 启动系统
 
 
 ## 项目更新当前进度
