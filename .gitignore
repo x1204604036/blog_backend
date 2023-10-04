@@ -1,5 +1,5 @@
 __pycache__/
 *.db.sqlite
 .idea/
-#*.env
+*.env
 *.log
